@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/Documents/estudos/web/leafweb/src/style.css">
+    <link rel="stylesheet" href="style.css">
     <style>
         #senha{
             display: flex;
@@ -16,8 +16,7 @@
             margin: 50vh;
             margin-bottom: 20vh;
             margin-top: 20vh;
-            border-radius: 10px;
-            
+            border-radius: 10px;  
         }
         #senha-text{
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -44,11 +43,6 @@
             display: none;
              /* Conteúdo oculto inicialmente */
         }
-          
-    </style>
-
-    <style>
-        
         body{
             background-image: url('https://wallpapers.com/images/hd/fast-and-furious-1-1920-x-1080-bvd6zzmg707lq3iy.jpg'); /* Substitua com o URL da sua imagem */
             background-size: cover; /* Garante que a imagem cubra todo o fundo */
@@ -135,14 +129,11 @@
         const senhainput = document.getElementById('senha-input');
         const senhabutton = document.getElementById('senha-button');
         const senhaDiv = document.getElementById('senha');
-        const conteudoDiv = document.getElementById('conteudo');
-        
-        
+        const conteudoDiv = document.getElementById('conteudo')
         senhabutton.addEventListener('click', () => {
             const senha = senhainput.value;
             if (senha === 'bebe') {senhaDiv.style.display = 'none'; conteudoDiv.style.display = 'block'} 
             })
     </script>
-    
 </body>
 </html>
