@@ -1,0 +1,11 @@
+h1{font-size: 250%;}
+h3{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 150%;}
+ul{display: flex; margin: 0;}
+li  {list-style-type: none; color: white; padding: 12px;}
+nav{background-color: rgba(0, 0,0,0.3); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;background-color: rgba(0, 0, 0, 0.7); margin-top: 0;}
+a{color: white; text-decoration: none;}
+#coluna-filmes{float: left; padding: 5%; width: 40%; scroll-snap-type: proximity;}
+#texto {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;background-color: rgba(0, 0, 0, 0.4);border-radius: 2%; float: right; padding: 2%;margin: 5%; width: 40%;margin-top: 5; position: fixed; right: 0; font-size: 16px; height: 70%;}
+p{float: none; position: static;}
+#filmes{display: flex; flex-direction: column;  }
+#filmes li{padding: 15px;margin: 10px; background-color: rgba(0, 0, 0, 0.7); border-radius: 2%;}
